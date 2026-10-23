@@ -1,0 +1,17 @@
+# 1. Python 编译产生的缓存垃圾
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 2. 虚拟环境文件夹
+venv/
+.venv/
+env/
+
+# 3. 环境变量文件
+.env
+.env.local
+
+# 4. 编辑器配置
+.vscode/
+.idea/
