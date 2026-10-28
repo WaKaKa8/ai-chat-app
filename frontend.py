@@ -21,8 +21,8 @@ def chat_with_backend(message, history):
 # 画网页
 demo = gr.ChatInterface(
     fn=chat_with_backend,
-    title="我的第一个 AI 聊天机器人",
-    description="前端 (Gradio) + 后端 (FastAPI) 完美结合！"
+    title="金融研报智能分析引擎",
+    description="基于大模型的财报提取与情感分析系统"
 )
 
 # 启动网页
