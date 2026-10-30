@@ -1,3 +1,5 @@
+import os
+os.environ['NO_PROXY'] = 'localhost,127.0.0.1' # <--- 强行告诉系统，本地通信别走代理
 import gradio as gr
 import requests
 
